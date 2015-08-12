@@ -9,6 +9,8 @@ npm:
 		cd $(resource_root) && npm $(cmd) --save
 npm-dev:
 		cd $(resource_root) && npm $(cmd) --save-dev
+watch:
+		cd $(resource_root) && gulp watch
 @:
 		@echo end
 %:

@@ -23,4 +23,11 @@ gulp.task('jshint', function(){
     .pipe(jshint.reporter('jshint-stylish'));
 });
 
+gulp.task('watch', function () {
+  var watch = require('gulp-watch');
+  watch(['./less/*.less'], function () {
+    return gulp.start('less');
+  });
+});
+
 gulp.task('build',['jshint','less']);
