@@ -1,0 +1,13 @@
+{
+  "name": "simpleQnA",
+  "version": "0.9.0",
+  "description": "simpleQnA",
+  "license": "",
+  "dependencies": {
+    "Bootflat": "~2.0.4",
+    "bootstrap": "~3.3.5",
+    "fontawesome": "~4.3.0",
+    "flat-ui": "~2.2.2",
+    "morris.js": "~0.5.1"
+  }
+}
